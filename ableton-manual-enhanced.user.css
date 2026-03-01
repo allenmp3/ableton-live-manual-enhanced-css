@@ -39,13 +39,21 @@
       :root {
         color-scheme: dark;
       }
-      
+
+      /* Background and body text colors */
       main,
       body,
       .main-footer__separator {
         background-color: #363636;
       }
 
+      .body-text,
+      .toc-list-nested .active > a,
+      .toc-list-nested .active > a .section-number   {
+        color: #b5b5b5;
+      }
+
+      /* Link colors */
       a .section-number,
       .body-text a
       {
@@ -57,16 +65,12 @@
         background-color: #04c3d5;
       }
 
+      /* Download PDF button */
       .button {
         color: black !important;
       }
 
-      .body-text,
-      .toc-list-nested .active > a,
-      .toc-list-nested .active > a .section-number   {
-        color: #b5b5b5;
-      }
-
+      /* Table of contents dividers */
       .toc-list-nested > ol > li + li {
         border-top-color: #464646;
       }
@@ -84,12 +88,20 @@
       color-scheme: dark;
     }
     
+    /* Background and body text colors */
     main,
     body,
     .main-footer__separator {
       background-color: #363636;
     }
 
+    .body-text,
+    .toc-list-nested .active > a,
+    .toc-list-nested .active > a .section-number   {
+      color: #b5b5b5;
+    }
+    
+    /* Link colors */
     a .section-number,
     .body-text a
     {
@@ -101,16 +113,12 @@
       background-color: #04c3d5;
     }
 
+    /* Download PDF button */
     .button {
       color: black !important;
     }
 
-    .body-text,
-    .toc-list-nested .active > a,
-    .toc-list-nested .active > a .section-number   {
-      color: #b5b5b5;
-    }
-
+    /* Table of contents dividers */
     .toc-list-nested > ol > li + li {
       border-top-color: #464646;
     }
