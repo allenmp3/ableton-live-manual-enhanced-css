@@ -1,10 +1,12 @@
 /* ==UserStyle==
 @name           Ableton Live Reference Manual - Enhanced
+@description    Improves the online Ableton Live Reference Manual with a fixed table of contents and an optional dark theme.
+@author         allenmp3 (https://github.com/allenmp3)
 @namespace      https://github.com/allenmp3/ableton-live-manual-custom-css
 @homepageURL    https://github.com/allenmp3/ableton-live-manual-custom-css
+
+@license        MIT
 @version        1.0.0
-@description    Improves the online Ableton Live Reference Manual with a fixed, scrollable table of contents and an optional dark theme.
-@author         allenmp3 (https://github.com/allenmp3)
 
 @preprocessor stylus
 @var  checkbox fixSidebarEnable "Use fixed sidebar (table of contents)" 1
