@@ -79,6 +79,12 @@
       .body-text--manual figure img {
         background-color: #d6d7db;
       }
+      
+      /* Keyboard shortcuts */
+      .body-text kbd {
+        color: #ccc;
+        background-color: #525252;
+      }
     }
   }
   
@@ -126,6 +132,12 @@
     /* Background for transparent images */
     .body-text--manual figure img {
       background-color: #d6d7db;
+    }
+    
+    /* Keyboard shortcuts */
+    .body-text kbd {
+      color: #ccc;
+      background-color: #525252;
     }
   }
 }
