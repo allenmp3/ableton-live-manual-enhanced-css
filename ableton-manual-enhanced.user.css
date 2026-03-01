@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name           Ableton Live Reference Manual - Enhanced
+@author         allenmp3 (https://github.com/allenmp3)
+@description    Improves the online Ableton Live Reference Manual with a fixed, scrollable table of contents and a dark theme.
 @namespace      https://github.com/allenmp3/ableton-live-manual-custom-css
 @homepageURL    https://github.com/allenmp3/ableton-live-manual-custom-css
+@license        MIT
 @version        1.0.0
-@description    Improves the online Ableton Live Reference Manual with a fixed, scrollable table of contents and a dark theme.
-@author         allenmp3 (https://github.com/allenmp3)
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.ableton.com/en/live-manual") {
