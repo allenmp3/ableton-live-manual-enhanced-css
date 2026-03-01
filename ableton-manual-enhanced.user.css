@@ -24,6 +24,11 @@
       overflow-y: scroll;
       padding-top: 12px;
     }
+    
+    .button {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
   }
   
   if headFootDisable {
