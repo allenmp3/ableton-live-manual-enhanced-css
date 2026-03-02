@@ -1,12 +1,11 @@
 /* ==UserStyle==
 @name           Ableton Live Reference Manual - Enhanced
-@description    Improves the online Ableton Live Reference Manual with a fixed table of contents and an optional dark theme.
+@description    Improves the online Ableton Live, Push, Move, and Note reference manuals with a fixed table of contents and optional dark theme.
 @author         allenmp3 (https://github.com/allenmp3)
 @namespace      https://github.com/allenmp3/ableton-live-manual-custom-css
 @homepageURL    https://github.com/allenmp3/ableton-live-manual-custom-css
-
 @license        MIT
-@version        1.0.0
+@version        1.1.0
 
 @preprocessor stylus
 @var  checkbox fixSidebarEnable "Use fixed sidebar (table of contents)" 1
@@ -15,7 +14,7 @@
 @var  checkbox darkThemeEnable "Always use dark theme" 0
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://www.ableton.com/en/live-manual"), url-prefix("https://www.ableton.com/en/manual") {
+@-moz-document url-prefix("https://www.ableton.com/en/live-manual"), url-prefix("https://www.ableton.com/en/manual"), regexp("https://www\\.ableton\\.com/.*/push/manual/.*"), regexp("https://www\\.ableton\\.com/.*/move/manual/.*"), regexp("https://www\\.ableton\\.com/.*/note/manual/.*") {
   if fixSidebarEnable {
     /* Fixed sidebar */
     #sidebar {
