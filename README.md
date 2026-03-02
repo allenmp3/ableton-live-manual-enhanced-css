@@ -14,6 +14,15 @@ Custom style for the online version of [Ableton Live's user manual](https://www.
 
 Link to the manual: [Ableton Live Reference Manual](https://www.ableton.com/en/live-manual/12/)
 
+## Updating the theme
+
+The theme should automatically update if you have the "Check for updates" option enabled in the "Edit Style" window for the theme. 
+
+You can also manually update (i.e., reinstall) the theme at any time by clicking the ”Install directly with Stylus” badge:
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/allenmp3/ableton-live-manual-enhanced-css/refs/heads/main/ableton-manual-enhanced.user.css)
+
+Details on new releases can be found [here](https://github.com/allenmp3/ableton-live-manual-enhanced-css/releases).
 
 ## Configuring theme options
 
