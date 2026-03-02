@@ -40,17 +40,13 @@ Click the gear icon next to the theme to see the options:
 
 Click _Save_ after adjusting options.
 
+# Other notes
 
-
-
-* Extension now enabled on [Push](https://www.ableton.com/en/push/manual/), [Move](https://www.ableton.com/en/move/manual/) and [Note](https://www.ableton.com/en/note/manual/) manuals.
-* All languages supported. As of 2026-03-02, these are: 
-  * `en` (English) — Live, Push, Move, Note
-  * `de` (Deutsch) — Push, Move, Note
-  * `fr` (français) — Push, Move, Note
-  * `ja` (日本語) — Push, Move, Note
-  * `zh-cn` (简体中文) — Push, Move, Note
-  * `es` (español) — Push, Move
-  * `it` (italiano) — Push, Move
-* Improved wording for the fixed sidebar navigation option.
-* Unnecessary CSS files removed from repository.
+Extension works for the manuals in all supported languages. As of 2026-03-02, these are: 
+ * `en` (English) — Live, Push, Move, Note
+ * `de` (Deutsch) — Push, Move, Note
+ * `fr` (français) — Push, Move, Note
+ * `ja` (日本語) — Push, Move, Note
+ * `zh-cn` (简体中文) — Push, Move, Note
+ * `es` (español) — Push, Move
+ * `it` (italiano) — Push, Move
