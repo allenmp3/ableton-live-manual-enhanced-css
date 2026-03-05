@@ -14,7 +14,7 @@
 @var  checkbox darkThemeEnable "Always use dark theme" 0
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://www.ableton.com/en/live-manual"), url-prefix("https://www.ableton.com/en/manual"), regexp("https://www\\.ableton\\.com/.*/push/manual/.*"), regexp("https://www\\.ableton\\.com/.*/move/manual/.*"), regexp("https://www\\.ableton\\.com/.*/note/manual/.*") {
+@-moz-document regexp("https://www\\.ableton\\.com/.*/live-manual/.*"), regexp("https://www\\.ableton\\.com/.*/push/manual/.*"), regexp("https://www\\.ableton\\.com/.*/move/manual/.*"), regexp("https://www\\.ableton\\.com/.*/note/manual/.*") {
   if fixSidebarEnable {
     /* Fixed sidebar */
     #sidebar {
