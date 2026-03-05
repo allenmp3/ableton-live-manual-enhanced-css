@@ -5,7 +5,7 @@
 @namespace      https://github.com/allenmp3/ableton-live-manual-custom-css
 @homepageURL    https://github.com/allenmp3/ableton-live-manual-custom-css
 @license        MIT
-@version        1.1.1
+@version        1.1.2
 
 @preprocessor stylus
 @var  checkbox fixSidebarEnable "Enable fixed/sticky sidebar navigation" 1
@@ -14,7 +14,7 @@
 @var  checkbox darkThemeEnable "Always use dark theme" 0
 ==/UserStyle== */
 
-@-moz-document regexp("https://www\\.ableton\\.com/.*/live-manual/.*"), regexp("https://www\\.ableton\\.com/.*/push/manual/.*"), regexp("https://www\\.ableton\\.com/.*/move/manual/.*"), regexp("https://www\\.ableton\\.com/.*/note/manual/.*") {
+@-moz-document regexp("https://www\\.ableton\\.com/.*/live-manual/.*"), regexp("https://www\\.ableton\\.com/.*/manual/.*"), regexp("https://www\\.ableton\\.com/.*/push/manual/.*"), regexp("https://www\\.ableton\\.com/.*/move/manual/.*"), regexp("https://www\\.ableton\\.com/.*/note/manual/.*") {
   if fixSidebarEnable {
     /* Fixed sidebar */
     #sidebar {
