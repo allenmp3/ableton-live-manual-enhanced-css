@@ -43,10 +43,11 @@ Click _Save_ after adjusting options.
 # Other notes
 
 Extension works for the manuals in all supported languages. As of 2026-03-02, these are: 
- * `en` (English) — Live, Push, Move, Note
+ * `en` (English) — Live 12, Push, Move, Note
  * `de` (Deutsch) — Push, Move, Note
  * `fr` (français) — Push, Move, Note
  * `ja` (日本語) — Push, Move, Note
  * `zh-cn` (简体中文) — Push, Move, Note
  * `es` (español) — Push, Move
  * `it` (italiano) — Push, Move
+ * Live 11 manual in all of the above languages.
